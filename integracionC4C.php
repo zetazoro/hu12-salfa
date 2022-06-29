@@ -51,7 +51,7 @@ class IntegrationActivityTaskC4C
         $nota = $this->checkedInut();
 
         $body = ''.
-            '<n0:TaskActivityBundleMaintainRequest_sync_V1 xmlns:n0="http://sap.com/xi/SAPGlobal20/Global" xmlns:ns8="http://sap.com/xi/AP/CustomerExtension/BYD/A2OER">'.
+            '<n0:TaskActivityBundleMaintainRequest_sync_V1 xmlns:n0="http://sap.com/xi/SAPGlobal20/Global">'.
             '<BasicMessageHeader>'.
             '</BasicMessageHeader>'. 
             '<ActivityTask actionCode="01" >'.
@@ -84,8 +84,8 @@ class IntegrationActivityTaskC4C
             '</Text>'.
             '</TextCollection>'.
             '</ActivityTask>'.
-			'<ns8:ZFuente_Task>'.$utmSource.'</ns8:ZFuente_Task>'.
-			'<ns8:ZMedio_Task>'.$utmMedio.'</ns8:ZMedio_Task>'.
+			'<ns8:ZFuente_Task xmlns:ns8="http://sap.com/xi/AP/CustomerExtension/BYD/A2OER">'.$utmSource.'</ns8:ZFuente_Task>'.
+			'<ns8:ZMedio_Task xmlns:ns8="http://sap.com/xi/AP/CustomerExtension/BYD/A2OER">'.$utmMedio.'</ns8:ZMedio_Task>'.
             '</n0:TaskActivityBundleMaintainRequest_sync_V1>';
 
         return $body;
