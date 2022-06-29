@@ -42,51 +42,50 @@ class IntegrationActivityTaskC4C
         $idResponsable = $this->removeZeros($this->getParam('ID_RESPONSABLE'));
         $idCampanha = $this->getParam('utm_campaign');
         $idActividad = $this->getParam('sap-outbound-id');
+		$utmSource = $this->getParam('utm_source');
+		$utmMedio = $this->getParam('utm_medium');
 
         $Hoy = new DateTime();
-        $hoy = $Hoy->format('Y-m-d\TH:i:s.') . substr($Hoy->format('u'), 0, 3) . 'Z';
-        $hoyMas2dias = $Hoy->add(new DateInterval('P2D'))->format('Y-m-d\TH:i:s.') . substr($Hoy->format('u'), 0, 3) . 'Z';
+        $hoy = $Hoy->format('Y-m-d\TH:i:s.') . substr($Hoy->format('u'), 0, 3) .'Z';
+        $hoyMas2dias = $Hoy->add(new DateInterval('P2D'))->format('Y-m-d\TH:i:s.') . substr($Hoy->format('u'), 0, 3) .'Z';
         $nota = $this->checkedInut();
 
-        $body = '' .
-            '<n0:TaskActivityBundleMaintainRequest_sync_V1 xmlns:n0="http://sap.com/xi/SAPGlobal20/Global"> '.
+        $body = ''.
+            '<n0:TaskActivityBundleMaintainRequest_sync_V1 xmlns:n0="http://sap.com/xi/SAPGlobal20/Global" xmlns:ns8="http://sap.com/xi/AP/CustomerExtension/BYD/A2OER">'.
             '<BasicMessageHeader>'.
             '</BasicMessageHeader>'. 
             '<ActivityTask actionCode="01" >'.
-            '<ProcessorParty> <BusinessPartnerInternalID>' . $idResponsable . '</BusinessPartnerInternalID> </ProcessorParty>' .
-            '<ActivityParty contactPersonListCompleteTransmissionIndicator="true">' .
-            '<RecipientPartyID>' . $idCuenta . '</RecipientPartyID>' .
-            '<RoleCode>34</RoleCode>' .
+            '<ProcessorParty> <BusinessPartnerInternalID>'.$idResponsable.'</BusinessPartnerInternalID> </ProcessorParty>'.
+            '<ActivityParty contactPersonListCompleteTransmissionIndicator="true">'.
+            '<RecipientPartyID>'.$idCuenta.'</RecipientPartyID>'.
+            '<RoleCode>34</RoleCode>'.
             '<ContactPerson>'.
-            '<RecipientPartyID>' . $idContacto . '</RecipientPartyID>' .
-            '<RoleCode>ZP</RoleCode>' .
-            '<MainIndicator>true</MainIndicator>' .
-            '</ContactPerson>' .
-            '<MainIndicator>true</MainIndicator>' .
-            '</ActivityParty>' .
-
-            '<BusinessTransactionDocumentReference><ID>' . $idRef . '</ID><TypeCode>72</TypeCode><RoleCode>1</RoleCode></BusinessTransactionDocumentReference>' .
-            //'<BusinessTransactionDocumentReference><ID>'+idCampanha+'</ID><TypeCode>764</TypeCode><RoleCode>1</RoleCode></BusinessTransactionDocumentReference>'+
-            //'<EmployeeResponsibleParty>'+
-            //  '<PartyID>'+idResponsable+'</PartyID>'+
-            //'<RoleCode>39</RoleCode>'+
-            //'</EmployeeResponsibleParty>'+
-            '<ReferenceParty><BusinessPartnerInternalID>' . $idContacto . '</BusinessPartnerInternalID></ReferenceParty>' .
-            '<MainActivityParty><BusinessPartnerInternalID>' . $idCuenta . '</BusinessPartnerInternalID></MainActivityParty>' .
-            '<EndDateTime timeZoneCode="UTC">' . $hoyMas2dias . '</EndDateTime>' .
-            '<GroupCode>0002</GroupCode>' .
-
-            '<Name>' . $nota . ' Opp: ' . $idRef . '</Name>' .
-            '<PriorityCode>2</PriorityCode>' .
-            '<ProcessingTypeCode>0002</ProcessingTypeCode>' .
-            '<StartDateTime timeZoneCode="UTC">' . $hoy . '</StartDateTime>' .
-            '<TextCollection textListCompleteTransmissionIndicator="true">' .
-            '<Text>' .
-            '<TypeCode>10002</TypeCode>' .
-            '<ContentText languageCode="ES">' . $nota . '</ContentText>' .
-            '</Text>' .
-            '</TextCollection>' .
-            '</ActivityTask>' .
+            '<RecipientPartyID>'.$idContacto.'</RecipientPartyID>'.
+            '<RoleCode>ZP</RoleCode>'.
+            '<MainIndicator>true</MainIndicator>'.
+            '</ContactPerson>'.
+            '<MainIndicator>true</MainIndicator>'.
+            '</ActivityParty>'.
+            '<BusinessTransactionDocumentReference><ID>'.$idRef.'</ID><TypeCode>72</TypeCode><RoleCode>1</RoleCode></BusinessTransactionDocumentReference>'.
+            '<BusinessTransactionDocumentReference><ID>'.$idCampanha.'</ID><TypeCode>764</TypeCode><RoleCode>1</RoleCode></BusinessTransactionDocumentReference>'.
+            '<EmployeeResponsibleParty><BusinessPartnerInternalID>'.$idResponsable.'</BusinessPartnerInternalID></EmployeeResponsibleParty>'.
+            '<ReferenceParty><BusinessPartnerInternalID>'.$idContacto.'</BusinessPartnerInternalID></ReferenceParty>'.
+            '<MainActivityParty><BusinessPartnerInternalID>'.$idCuenta.'</BusinessPartnerInternalID></MainActivityParty>'.
+            '<EndDateTime timeZoneCode="UTC">'.$hoyMas2dias.'</EndDateTime>'.
+            '<GroupCode>Z60</GroupCode>'.
+            '<Name>'.$nota.' Opp: '.$idRef.'</Name>'.
+            '<PriorityCode>2</PriorityCode>'.
+            '<ProcessingTypeCode>0002</ProcessingTypeCode>'.
+            '<StartDateTime timeZoneCode="UTC">'.$hoy.'</StartDateTime>'.
+            '<TextCollection textListCompleteTransmissionIndicator="true">'.
+            '<Text>'.
+            '<TypeCode>10002</TypeCode>'.
+            '<ContentText languageCode="ES">'.$nota.'</ContentText>'.
+            '</Text>'.
+            '</TextCollection>'.
+            '</ActivityTask>'.
+			'<ns8:ZFuente_Task>'.$utmSource.'</ns8:ZFuente_Task>'.
+			'<ns8:ZMedio_Task>'.$utmMedio.'</ns8:ZMedio_Task>'.
             '</n0:TaskActivityBundleMaintainRequest_sync_V1>';
 
         return $body;
