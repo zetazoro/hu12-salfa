@@ -84,8 +84,8 @@ class IntegrationActivityTaskC4C
             '</Text>'.
             '</TextCollection>'.
             '</ActivityTask>'.
-			'<ZFuente_Task xmlns="http://sap.com/xi/AP/CustomerExtension/BYD/A2OER">'.$utmSource.'</ZFuente_Task>'.
-			'<ZMedio_Task xmlns="http://sap.com/xi/AP/CustomerExtension/BYD/A2OER">'.$utmMedio.'</ZMedio_Task>'.
+			'<ns8:ZFuente_Task xmlns:ns8="http://sap.com/xi/AP/CustomerExtension/BYD/A2OER">'.$utmSource.'</ns8:ZFuente_Task>'.
+			'<ns8:ZMedio_Task xmlns:ns8="http://sap.com/xi/AP/CustomerExtension/BYD/A2OER">'.$utmMedio.'</ns8:ZMedio_Task>'.
             '</n0:TaskActivityBundleMaintainRequest_sync_V1>';
 
         return $body;
