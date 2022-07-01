@@ -14,7 +14,7 @@
             border: 1px solid black;
         }
     </style>
-    <title>Formulario Renovación</title>
+    <title>Accelerador de Ventas</title>
 </head>
 
 <body class="sapCpBody cuerpo" >
