@@ -83,9 +83,9 @@ class IntegrationActivityTaskC4C
             '<ContentText languageCode="ES">'.$nota.'</ContentText>'.
             '</Text>'.
             '</TextCollection>'.
-            '</ActivityTask>'.
 			'<ns8:ZFuente_Task xmlns:ns8="http://sap.com/xi/AP/CustomerExtension/BYD/A2OER">'.$utmSource.'</ns8:ZFuente_Task>'.
 			'<ns8:ZMedio_Task xmlns:ns8="http://sap.com/xi/AP/CustomerExtension/BYD/A2OER">'.$utmMedio.'</ns8:ZMedio_Task>'.
+            '</ActivityTask>'.
             '</n0:TaskActivityBundleMaintainRequest_sync_V1>';
 
         return $body;
