@@ -135,7 +135,7 @@
     <div class="sapCpWidgetContent sapCRLWidgetContent "  ></div>
     <div class="sapCpWidgetContent sapCRLWidgetContent contenedor-btn">
         <div class="btn-center">
-            <button id="__button162" class="sapCpButton btn-principal" type="button">Enviar</button>
+            <button id="__button162" class="btn-principal" type="button">Enviar</button>
         </div>
         <span id="__text366" class="sapCpText sapCpButtonWidgetExtraText sapCpMissingMandatoryFieldText sapCpMissingMandatoryFieldLabel">Rellene todos los campos correctamente.</span>
         <span id="__text367" class="sapCpText sapCpButtonWidgetExtraText sapCpErrorMessageText">Se ha producido un error técnico.</span>
@@ -224,8 +224,8 @@
 
 
         </form>
-        
-        
+
+
     </body>
 
     <script>
