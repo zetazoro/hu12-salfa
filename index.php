@@ -230,7 +230,7 @@
 
     <script>
     //alert("PUREBA");
-    $("#__button61").click(function() {
+    $("#__button162").click(function() {
         var url = window.location.href;
         var dataString = {"url":url};
         $.ajax({
