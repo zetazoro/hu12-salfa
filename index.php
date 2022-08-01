@@ -131,7 +131,7 @@
 </div>
 
 
-<div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-8W" data-sap-cp-key="5C5DB1D9223D7A609BE1CFA519012F690DFC729C" class="sapCpWidget sapCRLWidget sapCpButtonWidget" data-sap-cp-follow-up-action="01" data-sap-cp-wprogres-enabled="false">
+<div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-8W" data-sap-cp-key="E9A1AF1DA52030B9DA166E4B92246C4BF49445D3" class="sapCpWidget sapCRLWidget sapCpButtonWidget" data-sap-cp-follow-up-action="01" data-sap-cp-wprogres-enabled="false">
     <div class="sapCpWidgetContent sapCRLWidgetContent "  ></div>
     <div class="sapCpWidgetContent sapCRLWidgetContent contenedor-btn">
         <div class="btn-center">
