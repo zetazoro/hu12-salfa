@@ -240,7 +240,7 @@
             asycn:false,
 
             success: function(data) {
-                document.getElementById('respuesta').innerHTML = data;
+                //document.getElementById('respuesta').innerHTML = data;
 
             },
             error: function(xhr, ajaxOptions, thrownError) {
