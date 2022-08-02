@@ -120,7 +120,7 @@
           </p>
       </div>
   </div>
-  <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W" data-sap-cp-key="E9A1AF1DA52030B9DA166E4B92246C4BF49445D3" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpWidgetEditable sapCRLWidgetEditable sapCpContactAttribute-TELNR_LONG" data-sap-cp-wprogres-enabled="false">
+  <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W" data-sap-cp-key="E9A1AF1DA52030B9DA166E4B92246C4BF49445D3" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetEditable sapCRLWidgetEditable sapCpContactAttribute-TELNR_LONG" data-sap-cp-wprogres-enabled="false">
       <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%">
         <label id="__label82" class="sapCpLabel sapCpLabelRequired" for="__input16">Teléfono</label>
     </div>
