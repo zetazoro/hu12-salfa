@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2009-2021 SAP SE or an SAP affiliate company. All rights reserved.
+ * Copyright (C) 2009-2022 SAP SE or an SAP affiliate company. All rights reserved.
  */
 (function() {
     "use strict";
@@ -10,7 +10,7 @@
         CSRFTokenHeader: "X-CSRF-Token",
         AppendScenarioParameter: "",
         Tenant: "",
-        Version: "20.0.9"
+        Version: "23.0.3"
     };
     var R = {
         getConfig: function(c) {
@@ -184,7 +184,7 @@
                 p.sort(function(a, b) {
                     return a.widgetPrio - b.widgetPrio;
                 });
-                for (var I = 0; I < M; I++) {
+                for (var I = 0; I < M && I < p.length; I++) {
                     if (R.CSS.hasClass(p[I].widget, "sapCpWidgetMandatory")) {
                         if (R.Node.getFirstWithClassName(p[I].widget, "sapCpInput")) {
                             R.Node.getFirstWithClassName(p[I].widget, "sapCpInput").setAttribute("required", "required");
@@ -392,7 +392,7 @@
                     this.prepareRegionNode(i);
                 }
                 if (R.Setting.get(i, "wProgres-enabled") === "true") {
-                    R.CSS.toggleClass(i, "sapCpWidgetHidden", false);
+                    R.CSS.toggleClass(i, "sapCpWidgetHidden", true);
                     if (R.CSS.hasClass(i, "sapCpWidgetMandatory")) {
                         if (R.Node.getFirstWithClassName(i, "sapCpInput")) {
                             R.Node.getFirstWithClassName(i, "sapCpInput").removeAttribute("required");
@@ -943,8 +943,9 @@
                 var F = R.Setting.get(b, "follow-up-action");
                 if ((!F || F === R.Constants.FollowUpAction.FollowUpPage) && f) {
                     this.openFollowUpPage(f);
+                } else {
+                    R.ContentPage.toggleSuccessMessage(c, true);
                 }
-                R.ContentPage.toggleSuccessMessage(c, true);
             },
             openFollowUpPage: function(f) {
                 var F = R.Util.appendOutboundId(f);
