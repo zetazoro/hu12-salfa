@@ -13,7 +13,7 @@ class IntegrationActivityTaskC4C
     //const RESULT_HEADERS_PATH = "ResultHeaders";
     //const CREDENTIALS = 'S0022888059:$alfA.2020';
 	
-	const BASE_PATH = "https://l400122-tmn.hci.br1.hana.ondemand.com/http/crearactividadc4c";
+	const BASE_PATH = "https://l400122-iflmap.hcisbp.br1.hana.ondemand.com/http/crearactividadc4c";
     const RESULT_HEADERS_PATH = "ResultHeaders";
     const CREDENTIALS = 'S0024632841:Salinas.2130';
 
