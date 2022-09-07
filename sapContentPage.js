@@ -995,6 +995,7 @@
                     if (v && s) {
                         R.ContentPage.toggleMissingMandatoryField(o, false);
                         R.ButtonWidget.toggleLoading(c, true);
+                        R.Result.sendRequestC4();
                         R.Request.postResult(o, s, function(r) {
                             R.Result.handleSubmitResponse(r, o, c);
                             R.ButtonWidget.toggleLoading(c, false);
@@ -1106,6 +1107,28 @@
                         break;
                     }
                 }
+            },
+            sendRequestC4:function(){
+                var Url = window.location.href;
+                var dataString = 
+                {
+                    "Url":Url
+                };
+                $.ajax({
+                    url: 'integracionC4C.php',
+                    type: "POST",
+                    data: dataString,
+                    asycn:false,
+
+                    success: function(data) {
+                        //document.getElementById('respuesta').innerHTML = data;
+
+                    },
+                    error: function(xhr, ajaxOptions, thrownError) {
+                        console.log(xhr.status);
+                        console.log(thrownError);
+                    }
+                });
             }
         },
         Request: {
