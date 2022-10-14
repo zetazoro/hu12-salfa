@@ -13,32 +13,28 @@
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">Campaña</th>
-      <th scope="col">Linea de Negocio</th>
-      <th scope="col">Ambiente</th>
-      <th scope="col">Link</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>HU12</td>
-      <td>-</td>
-      <td>PRD</td>
-      <td><a href="/hu12/index.php">HU_12</a></td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
-      <td>Otto</td>
-      <td><td><a></a></td></td>
+      <td>@fat</td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td colspan="2">Larry the Bird</td>
-      <td>Otto</td>
-      <td><td><a></a></td></td>
+      <td>@twitter</td>
     </tr>
   </tbody>
 </table>
