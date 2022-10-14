@@ -25,7 +25,7 @@
       <td>HU12</td>
       <td>-</td>
       <td>PRD</td>
-      <td><a href="/hu12/index.php">HU_12</a></td>
+      <td><a href="hu12/index.php">HU_12</a></td>
     </tr>
     <tr>
       <th scope="row">2</th>
