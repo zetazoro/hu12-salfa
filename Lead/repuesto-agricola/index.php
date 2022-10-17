@@ -1,183 +1,59 @@
 <!DOCTYPE html>
 <html class="sapCpRuntime" lang="es">
-<head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="./sapContentPage.css">
-    <script src="./sapContentPage.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<title>Test Drive</title>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-	body, html {
-  height: 100%;
-		width: 100%;
-		margin: 0px;
-		font-family:'Open Sans', Helvetica, Arial, sans-serif;
-}
-
-.bg {
-  /* The image used */
-  background: url('https://smc-content.s4hana.ondemand.com/smd-b40b51bea.us1/public/dl?shr=dWkcBAreIZ1FO3QCjK-i5_UoVwM1AolK7f-PmZMmoRI&obj=H2vfUWHt6h07NSA-CFoknDkHKq9P4tl3tVMq-TuSFy4')no-repeat top center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	height: 100%;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
-
-}
-		.opaco{
-			background-color: rgba(0,0,0,.51);
-			height: 100%;
-			text-align: center;
-			display: block;
-			padding: 15px;
-			width: 100%;
-		}
-		.formulario-especial{
-			margin: auto;
-			width: auto;
-			display: block;
-			color: #FFF;
-			border: 1px solid #ffffff40;
-			border-radius: 5px;
-			max-width: 450px;
-			
-		}
-		.alinear{
-			padding: 15px;
-		}
-		.alinear>div{
-			display: flex;
-			justify-content: center;
-			margin-bottom: 10px;
-		}
-		img.cabecera-form{
-			max-width: 285px;
-			height: auto;
-			display: block;
-			margin: auto;
-			
-		}
-		p{
-			font-size: 18px;
-			font-weight: 600;
-			text-align: center;
-			color: #fff;
-		}
-		.top-form{
-			max-width: 720px;
-			padding: 30px;
-			margin: auto;
-			display: block;
-		}
-		input[type=text], input[type=tel], input[type=email], select{
-		padding: 5px;
-		}
-		.border-removed-input {
-  border: 0;
-}
-		button {
-
-  /* remove default behavior */
-  appearance:none;
-  -webkit-appearance:none;
-
-  /* usual styles */
-  padding:25px 25pxs;
-  border:none;
-  background-color:#ffffff;
-  color:#606060;
-  font-weight:600;
-  border-radius:5px;
-  width:80px;
-			display: block;
-			margin: 20px auto;
-			height: 30px;
-
-}
-		
-		@media only screen and (max-width:759px){
-			.opaco{
-				display: inline-table;
-				padding: 0px;
-				text-align: unset;
-			}
-			.formulario-especial{
-				padding: 10px;
-				display: block;
-				margin: auto;
-			}
-			.alinear{
-				padding: 0px;
-			}
-		.alinear>div {
-    display: block;
-			width:auto; 
-}
-			.formulario-especial>div>div>div:first-child{
-				width: 100%!important;
-				text-align: left!important;
-			}
-			input[type=text], input[type=tel], input[type=email], select{
-		width: 90%;
-		}
-			.top-form{
-				padding: 10px;
-				max-width: min-content;
-			}
-		}
-	</style>
-</head>
+    <script src="./sapContentPage.js"></script>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Repuestos Formulario lead</title>
+  </head>
   <body class="sapCpBody">
-    <form id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage" data-sap-cp-key="1B27B0A556C1A8820646617576703589B8649836" class="sapCpContentPage sapCRLPage sapCpContentPageLoading" data-sap-cp-lpkey="" data-sap-cp-prefill-data="true" data-sap-cp-progres-enabled="false" data-sap-cp-version="23.0.3">
-      <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L" data-sap-cp-key="E1341AEA1CD9D6F083AE2B69145DDAD57599C282" class="sapCpLayout sapCRLLayout sapCRLLayoutVertical">
-        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-0W" data-sap-cp-key="08CD0877DFD853AB493DB2A2B7B04EC101D63C5C" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-NAME_FIRST" data-sap-cp-wprogres-enabled="false">
+    <form id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage" data-sap-cp-key="95FDDAB117ABB0392FA2BBDD6A18B8328B430E25" class="sapCpContentPage sapCRLPage sapCpContentPageLoading" data-sap-cp-lpkey="" data-sap-cp-prefill-data="true" data-sap-cp-progres-enabled="false" data-sap-cp-version="23.0.3">
+      <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L" data-sap-cp-key="30FA87050C50B9333DD81403477E92653D7C964F" class="sapCpLayout sapCRLLayout sapCRLLayoutVertical">
+        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-0W" data-sap-cp-key="3550415858F7518789825EAF6948BEFDEFFF628B" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-NAME_FIRST" data-sap-cp-wprogres-enabled="false">
           <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%">
-            <label id="__label11" class="sapCpLabel sapCpLabelRequired" for="__input5">Nombre</label>
+            <label id="__label268" class="sapCpLabel sapCpLabelRequired" for="__input223">Nombre</label>
           </div>
           <div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%">
-            <input id="__input5" class="sapCpInput" type="text" required="required" maxlength="40">
+            <input id="__input223" class="sapCpInput" type="text" required="required" maxlength="40">
           </div>
           <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
         </div>
-        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W" data-sap-cp-key="F1E44021CA432F3C364E1291BDCD5E871992E8BD" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-NAME_LAST" data-sap-cp-wprogres-enabled="false">
+        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W" data-sap-cp-key="F998EA32B6BCE4FF7DC6E8F1C983336A3F7DFF61" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-NAME_LAST" data-sap-cp-wprogres-enabled="false">
           <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%">
-            <label id="__label12" class="sapCpLabel sapCpLabelRequired" for="__input6">Apellido</label>
+            <label id="__label269" class="sapCpLabel sapCpLabelRequired" for="__input224">Apellido</label>
           </div>
           <div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%">
-            <input id="__input6" class="sapCpInput" type="text" required="required" maxlength="40">
+            <input id="__input224" class="sapCpInput" type="text" required="required" maxlength="40">
           </div>
           <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
         </div>
-        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-2W" data-sap-cp-key="FA7EC20562AAADBE3F736DBCE691C49AFAF3DB77" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-YY1_RUT_ENH" data-sap-cp-wprogres-enabled="false">
+        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-2W" data-sap-cp-key="61BA7242A906F948B8CF859A35CEF2C1AC85493C" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-YY1_RUT_ENH" data-sap-cp-wprogres-enabled="false">
           <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%">
-            <label id="__label13" class="sapCpLabel sapCpLabelRequired" for="__input7">Rut</label>
+            <label id="__label270" class="sapCpLabel sapCpLabelRequired" for="__input225">Rut</label>
           </div>
           <div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%">
-            <input id="__input7" class="sapCpInput" type="text" required="required" maxlength="10">
+            <input id="__input225" class="sapCpInput" type="text" required="required" maxlength="10">
           </div>
           <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
         </div>
-        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-3W" data-sap-cp-key="B70EE5FA6F47EA4F6AC7E068E7F4DFC07F109E27" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-TELNR_LONG" data-sap-cp-wprogres-enabled="false">
+        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-3W" data-sap-cp-key="68F5A5CFA711541FCBAB892B092F1714573FEDCE" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-TELNR_LONG" data-sap-cp-wprogres-enabled="false">
           <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%">
-            <label id="__label14" class="sapCpLabel sapCpLabelRequired" for="__input8">Telefono</label>
+            <label id="__label271" class="sapCpLabel sapCpLabelRequired" for="__input226">Telefono</label>
           </div>
           <div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%">
-            <input id="__input8" class="sapCpInput" type="tel" required="required" maxlength="30" data-sap-cp-validationmessage="+569">
+            <input id="__input226" class="sapCpInput" type="tel" required="required" maxlength="30" data-sap-cp-validationmessage="+569">
           </div>
           <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
         </div>
-        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-4W" data-sap-cp-key="7C236582466842637245DA3D2D5123FB49ED55F0" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-YY1_COMUNA_ENH" data-sap-cp-wprogres-enabled="false">
+        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-4W" data-sap-cp-key="2A95176CD24E7A75BF0D1FC6BC6947182FFE2E02" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-YY1_COMUNA_ENH" data-sap-cp-wprogres-enabled="false">
           <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%">
-            <label id="__label15" class="sapCpLabel sapCpLabelRequired" for="__down1">Comuna de atención</label>
+            <label id="__label272" class="sapCpLabel sapCpLabelRequired" for="__down35">Comuna de atención</label>
           </div>
           <div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%">
-            <select id="__down1" class="sapCpDropDown" required="required">
+            <select id="__down35" class="sapCpDropDown" required="required">
               <option label="Algarrobo" value="00579">Algarrobo</option>
               <option label="Alhué" value="13336">Alhué</option>
               <option label="Alto Bío-Bío" value="08346">Alto Bío-Bío</option>
@@ -532,41 +408,78 @@
           </div>
           <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
         </div>
-        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-5W" data-sap-cp-key="BE85D9F5CE6C5371F30AE9BE164435ACA3D0883C" class="sapCpWidget sapCRLWidget sapCpButtonWidget" data-sap-cp-follow-up-action="01" data-sap-cp-wprogres-enabled="false">
+        <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-5W" data-sap-cp-key="B39A0CE14F0543D2B307153DAF9C564FDD5BE0A8" class="sapCpWidget sapCRLWidget sapCpButtonWidget" data-sap-cp-follow-up-action="01" data-sap-cp-wprogres-enabled="false">
           <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"></div>
           <div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%">
-            <button id="__button6" class="sapCpButton" type="button">Enviar</button>
-            <span id="__text17" class="sapCpText sapCpButtonWidgetExtraText sapCpMissingMandatoryFieldText sapCpMissingMandatoryFieldLabel">Rellene todos los campos correctamente.</span>
-            <span id="__text18" class="sapCpText sapCpButtonWidgetExtraText sapCpErrorMessageText">Se ha producido un error técnico.</span>
-            <span id="__text19" class="sapCpText sapCpButtonWidgetExtraText sapCpSuccessMessageText sapCpSuccessMessageLabel">Gracias por su envío.</span>
+            <button id="__button112" class="sapCpButton" type="button">Enviar</button>
+            <span id="__text611" class="sapCpText sapCpButtonWidgetExtraText sapCpMissingMandatoryFieldText sapCpMissingMandatoryFieldLabel">Rellene todos los campos correctamente.</span>
+            <span id="__text612" class="sapCpText sapCpButtonWidgetExtraText sapCpErrorMessageText">Se ha producido un error técnico.</span>
+            <span id="__text613" class="sapCpText sapCpButtonWidgetExtraText sapCpSuccessMessageText sapCpSuccessMessageLabel">Gracias por su envío.</span>
           </div>
           <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
         </div>
       </div>
     </form>
   </body>
-	  <script>
-	    $("#__input7").blur(function (e){
-	    	
-	    	var valor = this.value.replace('.', '');
-	        valor = valor.replace('-', '');
-	    	if(valor.length > 7){
-				//checkRut(this);
-	    	}	
-	    });
-	    $("#__input7").bind("keyup keydown change", function(){
-	    	var valor = this.value;
-	    	if(valor.length > 1){
-	    		valor = valor.replace('.', '');
-	        	valor = valor.replace('-', '');
-    			cuerpo = valor.slice(0, -1);
-	        	dv = valor.slice(-1).toUpperCase();
-	        	this.value = cuerpo + '-' + dv;
-	    	}
-	    	if(valor.includes(".")){
-	    		this.value = valor.replace(".","");
-	    	}
-	    });
+      <script>
+     $("#buttonc4c").click(function (e){
+        var Url = window.location.href;
+            var Nombre = $("#__input63").val();
+            var Apellido = $("#__input64").val();
+            var NombreEmpresa = $("#__input65").val();
+            var Rut = $("#__input66").val();
+            var Email = $("#__input68").val();
+            var Telefono = $("#__input67").val();
+            var Comuna = $("#__down9").val();
+          var dataString = 
+          {
+              "Nombre":Nombre,
+              "Apellido":Apellido,
+              "NombreEmpresa":NombreEmpresa,
+              "Rut":Rut,
+              "Email":Email,
+              "Telefono":Telefono,
+              "Comuna":Comuna,
+              "Url":Url
+          };
+          $.ajax({
+              url: 'integracionC4C.php',
+              type: "POST",
+              data: dataString,
+              asycn:false,
 
-	  </script>
+              success: function(data) {
+                  //document.getElementById('respuesta').innerHTML = data;
+
+              },
+              error: function(xhr, ajaxOptions, thrownError) {
+                  console.log(xhr.status);
+                  console.log(thrownError);
+              }
+          });
+
+     });
+      $("#__input66").blur(function (e){
+        
+        var valor = this.value.replace('.', '');
+          valor = valor.replace('-', '');
+        if(valor.length > 7){
+        //checkRut(this);
+        } 
+      });
+      $("#__input66").bind("keyup keydown change", function(){
+        var valor = this.value;
+        if(valor.length > 1){
+          valor = valor.replace('.', '');
+            valor = valor.replace('-', '');
+          cuerpo = valor.slice(0, -1);
+            dv = valor.slice(-1).toUpperCase();
+            this.value = cuerpo + '-' + dv;
+        }
+        if(valor.includes(".")){
+          this.value = valor.replace(".","");
+        }
+      });
+
+    </script>
 </html>

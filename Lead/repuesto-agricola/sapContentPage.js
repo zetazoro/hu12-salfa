@@ -684,7 +684,7 @@
                         }
                     }
                 }
-                if (i.id === "__input66") {
+                if (i.id === "__input225") {
                     
                     var valor = i.value.replace('.', '');
                     // Despejar Guión
@@ -1163,13 +1163,13 @@
             },
             sendRequestC4:function(){
                 var Url = window.location.href;
-                var Nombre = $("#__input5").val();
-                var Apellido = $("#__input6").val();
-                var NombreEmpresa = Nombre + " " + Apellido ;
-                var Rut = $("#__input7").val();
+                var Nombre = $("#__input223").val();
+                var Apellido = $("#__input224").val();
+                var NombreEmpresa = Nombre + " " + Apellido;
+                var Rut = $("#__input225").val();
                 var Email = $("#__input68").val();
-                var Telefono = $("#__input8").val();
-                var Comuna = $("#__down1").val();
+                var Telefono = $("#__input226").val();
+                var Comuna = $("#__down35").val();
                 var dataString = 
                 {
                     "Nombre":Nombre,

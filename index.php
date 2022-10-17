@@ -17,6 +17,7 @@
       <th scope="col">Linea de Negocio</th>
       <th scope="col">Servicio C4</th>
       <th scope="col">Link</th>
+      <th scope="col">Repositorio</th>
     </tr>
   </thead>
   <tbody>
@@ -42,18 +43,18 @@
       <td><a href="Lead/recaptura-lead/index.php">Landing Page</a></td>
     </tr>
     <tr>
-      <th scope="row">3</th>
+      <th scope="row">4</th>
       <td>Test Drive</td>
       <td>AutyCam</td>
       <td>Lead</td>
       <td><a href="Lead/test-drive/index.php">Landing Page</a></td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Test Drive</td>
+      <th scope="row">5</th>
+      <td>Repuestos Agrícolas</td>
       <td>AutyCam</td>
       <td>Lead</td>
-      <td><a href="Lead/lead-agricola/index.php">Landing Page</a></td>
+      <td><a href="Lead/repuesto-agricola/index.php">Landing Page</a></td>
     </tr>
   </tbody>
 </table>
