@@ -25,14 +25,14 @@
       <td>HU12</td>
       <td>-</td>
       <td>PRD</td>
-      <td><a href="activityTask/hu12-salfa-prd/index.php">Landing Page</a></td>
+      <td><a href="activityTask/hu12/index.php">Landing Page</a></td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Lead Agricola</td>
       <td>Agrícola</td>
       <td>PRD</td>
-      <td><a href="Lead/new-lead-salfa-prd/index.php">Landing Page</a></td>
+      <td><a href="Lead/lead-agricola/index.php">Landing Page</a></td>
     </tr>
     <tr>
       <th scope="row">3</th>
