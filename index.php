@@ -9,7 +9,7 @@
   <body>
     <h1>Landing Page SALFA</h1>
 
-    <table class="table" style="margin: 5% auto;">
+    <table class="table" style="margin: 5% 5%;">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -36,7 +36,7 @@
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Recaptura Lead</td>
+      <td>Recaptura Lead</td>
       <td>AutyCam</td>
       <td>Lead</td>
       <td><a href="Lead/lead-agricola/index.php">Landing Page</a></td>
