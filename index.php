@@ -25,19 +25,19 @@
       <td>HU12</td>
       <td>-</td>
       <td>PRD</td>
-      <td><a href="hu12/index.php">HU_12</a></td>
+      <td><a href="activityTask/hu12-salfa-prd/index.php">Landing Page</a></td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>Otto</td>
-      <td><td><a></a></td></td>
+      <td>Lead Agricola</td>
+      <td>Agrícola</td>
+      <td>PRD</td>
+      <td><a href="Lead/new-lead-salfa-prd/index.php">Landing Page</a></td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>Otto</td>
+      <td colspan="2">Recaptura Lead</td>
+      <td>PRD</td>
       <td><td><a></a></td></td>
     </tr>
   </tbody>
