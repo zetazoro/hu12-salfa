@@ -39,14 +39,14 @@
       <td>Recaptura Lead</td>
       <td>AutyCam</td>
       <td>Lead</td>
-      <td><a href="Lead/lead-agricola/index.php">Landing Page</a></td>
+      <td><a href="Lead/recaptura-lead/index.php">Landing Page</a></td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Test Drive</td>
       <td>AutyCam</td>
       <td>Lead</td>
-      <td><a href="Lead/lead-agricola/index.php">Landing Page</a></td>
+      <td><a href="Lead/test-drive/index.php">Landing Page</a></td>
     </tr>
     <tr>
       <th scope="row">3</th>
