@@ -9,13 +9,13 @@
   <body>
     <h1>Landing Page SALFA</h1>
 
-    <table class="table">
+    <table class="table" style="margin: 5% auto;">
   <thead>
     <tr>
       <th scope="col">#</th>
       <th scope="col">Campaña</th>
       <th scope="col">Linea de Negocio</th>
-      <th scope="col">Ambiente</th>
+      <th scope="col">Servicio C4</th>
       <th scope="col">Link</th>
     </tr>
   </thead>
@@ -24,21 +24,22 @@
       <th scope="row">1</th>
       <td>HU12</td>
       <td>-</td>
-      <td>PRD</td>
+      <td>Tarea</td>
       <td><a href="activityTask/hu12/index.php">Landing Page</a></td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Lead Agricola</td>
       <td>Agrícola</td>
-      <td>PRD</td>
+      <td>Lead</td>
       <td><a href="Lead/lead-agricola/index.php">Landing Page</a></td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td colspan="2">Recaptura Lead</td>
-      <td>PRD</td>
-      <td><td><a></a></td></td>
+      <td>AutyCam</td>
+      <td>Lead</td>
+      <td><a href="Lead/lead-agricola/index.php">Landing Page</a></td>
     </tr>
   </tbody>
 </table>
