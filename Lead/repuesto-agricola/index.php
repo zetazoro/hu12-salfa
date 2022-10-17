@@ -459,7 +459,7 @@
           });
 
      });
-      $("#__input66").blur(function (e){
+      $("#__input225").blur(function (e){
         
         var valor = this.value.replace('.', '');
           valor = valor.replace('-', '');
@@ -467,7 +467,7 @@
         //checkRut(this);
         } 
       });
-      $("#__input66").bind("keyup keydown change", function(){
+      $("#__input225").bind("keyup keydown change", function(){
         var valor = this.value;
         if(valor.length > 1){
           valor = valor.replace('.', '');
