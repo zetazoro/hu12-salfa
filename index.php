@@ -18,6 +18,7 @@
       <th scope="col">Servicio C4</th>
       <th scope="col">Link</th>
       <th scope="col">Repositorio</th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
