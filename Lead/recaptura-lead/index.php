@@ -429,7 +429,7 @@
         var Apellido = $("#__input6").val();
         var NombreEmpresa = Nombre + " " + Apellido ;
         var Rut = $("#__input7").val();
-        var Email = "";// = $("#__input68").val();
+        var Email = "atcseba@gmail.com";// = $("#__input68").val();
         var Telefono = $("#__input8").val();
         var Comuna = $("#__down1").val();
           var dataString = 
