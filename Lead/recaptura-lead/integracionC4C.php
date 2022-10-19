@@ -9,11 +9,13 @@ class IntegrationActivityTaskC4C
      *
      * @var string
      */
+    //QA
     const BASE_PATH = "https://l5603-iflmap.hcisbp.us2.hana.ondemand.com/http/registraLeads";
-    const RESULT_HEADERS_PATH = "ResultHeaders";
     //const CREDENTIALS = 'S0022888059:$alfA.2020';
-
-    //const BASE_PATH = "https://l400122-iflmap.hcisbp.br1.hana.ondemand.com/http/registraLeads";
+    
+    //PRD
+     //const BASE_PATH = "https://l400122-iflmap.hcisbp.br1.hana.ondemand.com/http/registraLeads";
+    const RESULT_HEADERS_PATH = "ResultHeaders";
     const CREDENTIALS = 'S0024632841:Salinas.2130';
 
     function getParam($name)
@@ -58,7 +60,7 @@ class IntegrationActivityTaskC4C
                     "NombreEmpresa": "'.$_POST['NombreEmpresa'].'",
                     "Email": "'.$_POST['Email'].'",
                     "Telefono": "'.$_POST['Telefono'].'",
-                    "LN": "100"
+                    "LN": "90"
                 },
                 "Posiciones": [
                     {
