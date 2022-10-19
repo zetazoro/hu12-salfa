@@ -412,6 +412,7 @@
           <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" style="width:20%"></div>
           <div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%">
             <button id="__button6" class="sapCpButton" type="button">Enviar</button>
+             <button id="buttonc4c" class="" type="button">Enviar C4C</button>
             <span id="__text17" class="sapCpText sapCpButtonWidgetExtraText sapCpMissingMandatoryFieldText sapCpMissingMandatoryFieldLabel">Rellene todos los campos correctamente.</span>
             <span id="__text18" class="sapCpText sapCpButtonWidgetExtraText sapCpErrorMessageText">Se ha producido un error técnico.</span>
             <span id="__text19" class="sapCpText sapCpButtonWidgetExtraText sapCpSuccessMessageText sapCpSuccessMessageLabel">Gracias por su envío.</span>
@@ -459,7 +460,7 @@
           });
 
      });
-      $("#__input66").blur(function (e){
+      $("#__input7").blur(function (e){
         
         var valor = this.value.replace('.', '');
           valor = valor.replace('-', '');
@@ -467,7 +468,7 @@
         //checkRut(this);
         } 
       });
-      $("#__input66").bind("keyup keydown change", function(){
+      $("#__input7").bind("keyup keydown change", function(){
         var valor = this.value;
         if(valor.length > 1){
           valor = valor.replace('.', '');
