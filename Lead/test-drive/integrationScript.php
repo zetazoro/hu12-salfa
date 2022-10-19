@@ -14,7 +14,11 @@ class LandingPageIntegration
      *
      * @var string
      */
-    const BASE_PATH = "https://my304911-api.s4hana.ondemand.com/sap/opu/odata/sap/CUAN_CONTENT_PAGE_RESULT_SRV/";
+    //MKT QA
+    const BASE_PATH = "https://my301988-api.s4hana.ondemand.com/sap/opu/odata/sap/CUAN_CONTENT_PAGE_RESULT_SRV/";
+
+    //MKT PRD
+    //const BASE_PATH = "https://my304911-api.s4hana.ondemand.com/sap/opu/odata/sap/CUAN_CONTENT_PAGE_RESULT_SRV/";
 
     /**
      * The ResultHeadersPath is the name of the ResultHeaders entity
