@@ -199,7 +199,7 @@
         <label id="__label82" class="sapCpLabel" for="__down9">Comuna </label>
       </div>
       <div class="sapCpWidgetContent sapCpWidgetContentRight sapCRLWidgetContent sapCRLWidgetContentRight" style="padding-left:20%">
-        <select id="__down9" class="sapCpDropDown">
+        <select id="__down9" class="sapCpDropDown" style="color:black;">
           <option label=" " value="" selected="selected"> </option>
           <option label="Algarrobo" value="00579">Algarrobo</option>
           <option label="Alhué" value="13336">Alhué</option>

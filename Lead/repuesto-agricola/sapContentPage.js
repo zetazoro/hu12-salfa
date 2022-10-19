@@ -1167,7 +1167,7 @@
                 var Apellido = $("#__input224").val();
                 var NombreEmpresa = Nombre + " " + Apellido;
                 var Rut = $("#__input225").val();
-                var Email = $("#__input68").val();
+                var Email = "";//$("#__input68").val();
                 var Telefono = $("#__input226").val();
                 var Comuna = $("#__down35").val();
                 var dataString = 
