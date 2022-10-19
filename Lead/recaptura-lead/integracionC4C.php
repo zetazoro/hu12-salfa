@@ -78,7 +78,7 @@ class IntegrationActivityTaskC4C
                     {
                         "Campo": "ProcesadorMotor",
                         "Valor": true
-                    }
+                    },
                     {
                         "Campo": "Conversica",
                         "Valor": true
